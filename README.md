@@ -22,7 +22,7 @@ Ayarlar
       const IDler = {
         botID: "ClientId", //Bot Client Id
         botSecret: "BotClientSecrets", //Bot Client Secret 
-        botCallbackURL: "CallBackURl", //Callback
+        botCallbackURL: "https://weburl/auth/discord/callback", //Callback
     };
 ```
 
@@ -48,6 +48,6 @@ Settings
       const IDler = {
         botID: "ClientId", //Bot Client Id
         botSecret: "BotClientSecrets", //Bot Client Secret 
-        botCallbackURL: "CallBackURl", //Callback
+        botCallbackURL: "https://weburl/auth/discord/callback", //Callback
     };
 ```

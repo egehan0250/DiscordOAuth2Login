@@ -26,7 +26,7 @@ module.exports = function(client) {
     const passport = require(`passport`);
     const db = (global.db = {});
     const Strategy = require(`passport-discord`).Strategy;
-    const { config } = require('./config.json');
+    const config = require('./config.json');
     var PORT = 3000;
       const IDler = {
         botID: "BOTID", //Bot Client Id
